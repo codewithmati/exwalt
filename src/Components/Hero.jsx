@@ -17,7 +17,7 @@ function Hero() {
         <Header />
       </div>
 
-      <div className="h-screen bg-[#d9d9d9] relative overflow-hidden">
+      <div className="h-screen bg-[#FFFFFF] relative overflow-hidden">
       <iframe
           src={SPLINE_URL}
           className="h-screen w-full absolute top-0 z-10"
@@ -27,11 +27,11 @@ function Hero() {
           style={{ pointerEvents: 'none' }} // Ensure iframe does not capture scroll events
         ></iframe>
 
-        <div className="absolute bottom-[45px] left-0 right-0 z-20 text-center">
-          <div className="font-medium text-[20px] xl:text-[25px] font-title tracking-wide text-[#111]">
+        <div className="absolute bottom-0 left-0 right-0 z-20 text-center">
+          <div className="font-medium text-[13px] xl:text-[20px] font-title tracking-wide text-[#111]">
             Bridging the Horizons
           </div>
-          <p className="mt-2 text-[13px] lg:text-sm px-5 font-body text-[#707070] font-medium tracking-wide">
+          <p className="mt-2 text-[11px] lg:text-xs px-5 font-body text-[#707070] font-medium tracking-wide">
             At the forefront of innovation, Exwalt is dedicated to <br />
             shaping the future. Innovating beyond boundaries <br />
             to create a world of endless opportunities.
@@ -39,7 +39,7 @@ function Hero() {
           <div className="mt-5 relative">
             <button
               onClick={scrollToNextSection}
-              className="py-1.5 px-4 ring-[0.5px] ring-[#707070] rounded-full text-xs font-mediumNMGT tracking-wider"
+              className="py-1.5 px-4 ring-[0.5px] ring-[#707070] rounded-full text-[11px] font-mediumNMGT tracking-wider"
             >
               Scroll Down
             </button>

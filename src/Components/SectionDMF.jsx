@@ -37,13 +37,13 @@ function SectionDMF() {
       <div className="sticky top-0 h-screen xl:h-auto overflow-x-auto scroll-hidden z-5">
          <img src={imgExwalt} className="object-cover h-screen xl:h-full w-full" alt="Background" />
            <div className="absolute inset-0 text-white flex flex-col justify-center items-center  mx-24">
-           <div className="mt-[-80px]">
+           {/* <div className="mt-[-80px]"> */}
               <img 
                 src={glasslogo}
                 alt="Logo" 
-                className="w-[250px] h-auto"
+                className="w-[250px] h-auto mt-[-80px] backdrop-opacity-20"
               />
-            </div>
+            {/* </div> */}
              <div className="xl:flex xl:justify-between xl:w-full text-center mt-[-20px]">
                <div className="font-title text-[15px]">Exwalt Technologies</div>
                <div className="text-[11px] mx-auto lg:mx-0 text-left">
