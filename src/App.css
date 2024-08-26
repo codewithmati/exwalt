@@ -1,0 +1,28 @@
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seamless-gif {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  /* CSS for smooth playback */
+  animation: loop-animation 2s linear infinite;
+}
+
+@keyframes loop-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

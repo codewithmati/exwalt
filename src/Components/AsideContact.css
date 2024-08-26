@@ -1,0 +1,17 @@
+/* Basic styles for the label */
+label {
+  position: absolute;
+  left: 0;
+  top: 1.5rem; /* Initial position */
+  font-size: 0.75rem; /* Font size */
+  transition: all 0.2s ease;
+  color: #707070; /* Default color */
+}
+
+/* When input is focused or has a value */
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: -0.75rem; /* Adjust based on your design */
+  font-size: 10px; /* Adjust based on your design */
+  color: #707070; /* Ensure it matches your design */
+}
